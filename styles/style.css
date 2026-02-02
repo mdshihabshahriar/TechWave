@@ -44,7 +44,7 @@ header{
 .nav-links{
     gap: 32px;
 }
-.nav-btn{
+.btn-primary{
     padding: 12.5px 16px;
     border: none;
     border-radius: 20px;
@@ -55,6 +55,62 @@ header{
     cursor: pointer;
     transition: transform 0.2s ease;
 }
-.nav-btn:hover{
+.btn-primary:hover{
+    transform: translateY(-6px);
+}
+
+/* banner related styles */
+.hero{
+    background: url("../images/hero-bg.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 760px;
+    justify-content: center;
+    /* align-items: center;     */
+    width: 100%;
+}
+.hero-circle{
+    background: url("../images/hero-circle.png");
+    width: 350px;
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 100px;
+}
+.banner-content{
+    margin-top: -300px;
+    /* margin: 0 auto; */
+    align-items: center;
+    text-align: center;
+}
+.banner-title{
+    font-size: 3.75rem;
+    font-weight: 800;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+}
+.banner-description{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-top: 0
+}
+.btn-subscribe{
+    font-size: 1rem;
+    font-weight: 600;
+    color: #00FF88;
+    border: 1px solid #00FF88;
+    border-radius: 20px;
+    background-color: transparent;
+    padding: 12.5px 16px;
+    cursor: pointer;
+    margin-top: 24px;
+    transition: transform 0.2s ease;
+}
+.btn-subscribe:hover{
     transform: translateY(-6px);
 }
