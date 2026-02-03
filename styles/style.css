@@ -68,7 +68,6 @@ header{
     background-position: center;
     height: 760px;
     justify-content: center;
-    /* align-items: center;     */
     width: 100%;
 }
 .hero-circle{
@@ -82,9 +81,21 @@ header{
     position: relative;
     margin-top: 100px;
 }
+.new-badge{
+    position: absolute;
+    top: -10px;
+    right: 20px;
+    background: #00FF88;
+    color: #1A0B2E;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 20px;
+    padding: 8px 16px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #00FF88;
+}
 .banner-content{
     margin-top: -300px;
-    /* margin: 0 auto; */
     align-items: center;
     text-align: center;
 }
@@ -336,3 +347,44 @@ hr{
     height: 16px;
     object-fit: contain;
 }
+
+/* footer related styles */
+.footer{
+    max-width: 1600px;
+    height: 412px;
+    background: url("../images/footer-bg.png") center no-repeat;
+    position: relative;
+    margin: 120px auto 0;
+    color: #FFFFFF;
+}
+.footer-content{
+    text-align: center;
+}
+#footer-title{
+    font-size: 4rem;
+    padding-top: 90px;
+    margin-bottom: 32px;
+}
+.footer-description{
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 120px;
+}
+.footer-icons{
+    justify-content: center;
+    gap: 32px;
+    margin-bottom: 32px;
+}
+.icon-items{
+    align-items: center;
+    gap: 24px;
+}
+.icon-title{
+    font-size: 1rem;
+    font-weight: 500;
+}
+.icon-img{
+    width: 24px;
+    height: 24px;
+}   
