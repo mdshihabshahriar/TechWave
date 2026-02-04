@@ -587,7 +587,7 @@ hr{
     .icon-img {
         width: 24px;   
         height: auto;
-}
+    }
     .icon-items {
         flex-direction: row;   
         align-items: center;
@@ -597,7 +597,7 @@ hr{
     .icon-title {
         font-size: 1rem;    
         margin: 0;
-}
+    }
     .footer-icons{
         flex-wrap: wrap;
         justify-content: center; 
